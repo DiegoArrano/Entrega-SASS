@@ -1,45 +1,52 @@
-@import "scss/_fotos";
+@import "./variables";
+@import "./detalles";
 
-ul{
-    h4{
-        font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-size: small;
-    color: rgb(0, 0, 0);
+
+header{
+    p{
+    background-color: $color-negro;
+    color: $color-blanco;
+    border: none;
+    padding:20px;
+    margin-top:20px;
+    font-family: $titulo;
+    font-size: 25px;
     text-align: center;
-    font-size: 30px;
-    padding: 10px 50px 20px;
-    background-color: rgb(255, 255, 255);
     }
 }
 
-
-div{
+main{
     p{
-        
-        font-family: 'Courier New', Courier, monospace;
+        font-family: $texto;
     font-style: normal;
-    font-weight: bold;
     font-size: small;
-    color: rgb(0, 0, 0);
-    text-align: center;
+    color: $color-negro;
+    text-align: justify;
     font-size: 20px;
-    background-color: rgb(255, 255, 255);
-    margin: auto;
     padding: 10px 50px 20px;
-    
-   
-}
+    background-color: none;
+    }
 }
 
-footer {
-    p{
-        font-family: Arial, Helvetica, sans-serif;
+footer{
+    h4{
+        font-family: $titulo;
         font-style: normal;
         font-size: small;
-        color: rgb(0, 0, 0);
+        color: $color-rojo;
         text-align: center;
         font-size: 19px;
     }
-}
-
+  
+  }
+  
+  footer {
+    p{
+        font-family: $texto;
+        font-style: normal;
+        font-size: small;
+        color: $color-negro;
+        text-align: center;
+        font-size: 19px;
+    }
+  }
